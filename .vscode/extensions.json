@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "vscode-icons-team.vscode-icons",
+    "ritwickdey.LiveServer",
+    "pkief.material-icon-theme",
+    "vscode-styled-components.vscode-styled-components",
+    "vitaliy-bobrov.vscode-tailwindcss"
+  ]
+}

@@ -1,0 +1,4 @@
+# Run linting and staged formatting/tests
+echo "Running pre-commit checks..."
+npm run lint || exit 1
+npx --yes lint-staged || exit 1

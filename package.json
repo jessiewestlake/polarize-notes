@@ -1,0 +1,79 @@
+{
+  "name": "windows-markdown-notes-web",
+  "version": "1.0.0",
+  "description": "A markdown notes editor and manager for Windows/web, inspired by Bear notes.",
+  "main": "src/main.tsx",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.3.0",
+    "highlight.js": "^11.11.1",
+    "lucide-react": "^0.539.0",
+    "markdown-it": "^14.1.0",
+    "marked": "^16.1.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^9.0.1",
+    "react-redux": "^9.0.0",
+    "react-router-dom": "^6.26.0",
+    "tailwindcss": "^3.4.7"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
+    "@playwright/test": "^1.46.0",
+    "@testing-library/jest-dom": "^6.4.8",
+    "@testing-library/react": "^16.0.0",
+    "@types/node": "^24.2.1",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.17.0",
+    "@typescript-eslint/parser": "^7.17.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.35.0",
+    "husky": "^9.0.11",
+    "jsdom": "^26.1.0",
+    "lint-staged": "^15.2.7",
+    "playwright": "^1.46.0",
+    "postcss": "^8.4.41",
+    "prettier": "^3.3.3",
+    "react-markdown": "^9.0.1",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.2",
+    "vitest": "^3.2.4"
+  },
+  "engines": {
+    "node": ">=18.18",
+    "npm": ">=9"
+  },
+  "keywords": [
+    "markdown",
+    "notes",
+    "editor",
+    "react",
+    "tailwindcss"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/windows-markdown-notes-web.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/windows-markdown-notes-web/issues"
+  },
+  "homepage": "https://github.com/yourusername/windows-markdown-notes-web#readme"
+}
