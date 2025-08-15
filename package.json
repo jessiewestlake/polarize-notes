@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.3.0",
+    "@tailwindcss/postcss": "^4.1.12",
     "highlight.js": "^11.11.1",
     "lucide-react": "^0.539.0",
     "markdown-it": "^14.1.0",
@@ -26,7 +27,7 @@
     "react-markdown": "^9.0.1",
     "react-redux": "^9.0.0",
     "react-router-dom": "^7.8.0",
-    "tailwindcss": "^3.4.7"
+    "tailwindcss": "^4.1.12"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
