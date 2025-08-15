@@ -10,7 +10,7 @@ describe('App Component', () => {
 
   test('renders the sidebar', () => {
     render(<App />);
-    const sidebarElement = screen.getByRole('navigation');
+    const sidebarElement = screen.getByRole('navigation', { name: /sidebar/i });
     expect(sidebarElement).toBeInTheDocument();
   });
 
